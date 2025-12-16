@@ -35,15 +35,40 @@ export default function ContactPage() {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
+    try {
+      // Google Apps Script URL - Update this with your deployed script URL
+      const GOOGLE_SCRIPT_URL = process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL || 
+        "https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec";
+      
+      // Send data to Google Sheets
+      await fetch(GOOGLE_SCRIPT_URL, {
+        method: "POST",
+        mode: "no-cors", // Required for Google Apps Script
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          timestamp: new Date().toISOString(),
+          name: formData.name,
+          email: formData.email,
+          company: formData.company,
+          phone: formData.phone,
+          message: formData.message,
+        }),
+      });
+
+      // Success feedback
       setIsSubmitting(false);
-      setSubmitMessage("Thank you! We'll get back to you within 24 hours.");
+      setSubmitMessage("✅ Thank you! Your message has been received. We'll get back to you within 2 hours.");
       setFormData({ name: "", email: "", company: "", phone: "", message: "" });
       
       // Clear success message after 5 seconds
       setTimeout(() => setSubmitMessage(""), 5000);
-    }, 1500);
+    } catch (error) {
+      setIsSubmitting(false);
+      setSubmitMessage("❌ Something went wrong. Please email us directly at hello@techvision.com");
+      setTimeout(() => setSubmitMessage(""), 5000);
+    }
   };
 
   const handleChange = (
