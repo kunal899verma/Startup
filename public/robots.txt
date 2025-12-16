@@ -3,7 +3,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://techvision.com/sitemap.xml
-
-
-
-
