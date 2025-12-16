@@ -16,22 +16,32 @@ const reasons = [
   {
     icon: Zap,
     title: "Fast Delivery",
-    description: "Launch your MVP in 4-6 weeks with agile development.",
+    description: "Agile methodologies ensure rapid development without compromising quality.",
   },
   {
-    icon: Award,
-    title: "Proven Track Record",
-    description: "4,200+ successful projects with 98% client satisfaction.",
+    icon: Shield,
+    title: "Secure & Reliable",
+    description: "Enterprise-grade security and 99.9% uptime guarantee for your applications.",
   },
   {
     icon: Users,
     title: "Expert Team",
-    description: "750+ certified developers, designers, and marketers.",
+    description: "50+ skilled developers, designers, and strategists dedicated to your success.",
+  },
+  {
+    icon: Award,
+    title: "Award Winning",
+    description: "Recognized for excellence in software development and client satisfaction.",
+  },
+  {
+    icon: Clock,
+    title: "24/7 Support",
+    description: "Round-the-clock support to keep your business running smoothly.",
   },
   {
     icon: TrendingUp,
-    title: "Measurable Results",
-    description: "Average 10x ROI and 250% growth for our clients.",
+    title: "Scalable Solutions",
+    description: "Future-proof architecture that grows with your business needs.",
   },
 ];
 
