@@ -22,6 +22,32 @@ export const SERVICES = [
     ],
   },
   {
+    id: "shopify-development",
+    title: "Shopify Development",
+    description:
+      "Complete Shopify solutions from store setup to custom app development using Shopify Hydrogen and Liquid.",
+    icon: "ShoppingCart",
+    features: [
+      "Shopify Store Development",
+      "Shopify Hydrogen (Headless)",
+      "Custom Shopify Apps",
+      "Theme Customization",
+    ],
+  },
+  {
+    id: "wordpress-development",
+    title: "WordPress Development",
+    description:
+      "Professional WordPress websites and custom plugins to power your content management and blogging needs.",
+    icon: "FileCode",
+    features: [
+      "Custom WordPress Themes",
+      "Plugin Development",
+      "WooCommerce Integration",
+      "WordPress Optimization",
+    ],
+  },
+  {
     id: "mobile-development",
     title: "Mobile App Development",
     description:
@@ -32,6 +58,45 @@ export const SERVICES = [
       "Cross-platform Development",
       "App Store Optimization",
       "Push Notifications",
+    ],
+  },
+  {
+    id: "digital-marketing",
+    title: "Digital Marketing & Growth",
+    description:
+      "Complete digital marketing solutions to boost your online presence and drive sales across all platforms.",
+    icon: "TrendingUp",
+    features: [
+      "Amazon Marketing & PPC",
+      "Social Media Marketing",
+      "SEO & Content Strategy",
+      "Performance Analytics",
+    ],
+  },
+  {
+    id: "ecommerce-management",
+    title: "E-commerce Account Management",
+    description:
+      "Expert management of your Amazon, Shopify, and marketplace accounts to maximize sales and growth.",
+    icon: "Store",
+    features: [
+      "Amazon Account Management",
+      "Listing Optimization",
+      "Inventory Management",
+      "Sales Analytics & Reporting",
+    ],
+  },
+  {
+    id: "social-media-marketing",
+    title: "Social Media Marketing",
+    description:
+      "Strategic social media campaigns that build brand awareness and drive engagement across all platforms.",
+    icon: "Share2",
+    features: [
+      "Facebook & Instagram Ads",
+      "YouTube Marketing",
+      "Content Creation",
+      "Community Management",
     ],
   },
   {
@@ -84,84 +149,6 @@ export const SERVICES = [
       "Security Updates",
       "Performance Optimization",
       "Bug Fixes",
-    ],
-  },
-  {
-    id: "shopify-development",
-    title: "Shopify Development",
-    description:
-      "Custom Shopify stores and apps that drive sales, enhance customer experience, and scale your e-commerce business.",
-    icon: "ShoppingCart",
-    features: [
-      "Custom Shopify Themes",
-      "Shopify App Development",
-      "Store Migration & Setup",
-      "Payment Gateway Integration",
-    ],
-  },
-  {
-    id: "shopify-hydrogen",
-    title: "Shopify Hydrogen & Headless Commerce",
-    description:
-      "Next-generation headless commerce solutions with Shopify Hydrogen for lightning-fast, customizable storefronts.",
-    icon: "Zap",
-    features: [
-      "Hydrogen Storefronts",
-      "Headless Architecture",
-      "GraphQL API Integration",
-      "Custom Checkout Experience",
-    ],
-  },
-  {
-    id: "wordpress-development",
-    title: "WordPress Development",
-    description:
-      "Professional WordPress websites, custom themes, and plugins tailored to your business needs.",
-    icon: "FileText",
-    features: [
-      "Custom Theme Development",
-      "Plugin Development",
-      "WooCommerce Integration",
-      "Headless WordPress",
-    ],
-  },
-  {
-    id: "ecommerce-solutions",
-    title: "E-commerce Solutions",
-    description:
-      "End-to-end e-commerce platforms built with WooCommerce, Magento, or custom solutions for maximum conversions.",
-    icon: "Store",
-    features: [
-      "Multi-vendor Marketplaces",
-      "Payment Gateway Setup",
-      "Inventory Management",
-      "Analytics & Reporting",
-    ],
-  },
-  {
-    id: "cms-development",
-    title: "CMS Development",
-    description:
-      "Custom content management systems and integrations with Contentful, Sanity, Strapi, and other headless CMS platforms.",
-    icon: "Layout",
-    features: [
-      "Headless CMS Setup",
-      "Content Modeling",
-      "API Integration",
-      "Multi-language Support",
-    ],
-  },
-  {
-    id: "wix-webflow",
-    title: "Wix & Webflow Development",
-    description:
-      "Professional no-code/low-code solutions with Wix and Webflow for rapid deployment and easy management.",
-    icon: "Blocks",
-    features: [
-      "Custom Wix Development",
-      "Webflow Animations",
-      "CMS Collections",
-      "Third-party Integrations",
     ],
   },
 ];

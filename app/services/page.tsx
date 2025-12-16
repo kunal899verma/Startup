@@ -15,10 +15,9 @@ import {
   Sparkles,
   TrendingUp,
   ShoppingCart,
-  FileText,
+  FileCode,
   Store,
-  Layout,
-  Blocks,
+  Share2,
 } from "lucide-react";
 import Link from "next/link";
 import Container from "@/components/ui/Container";
@@ -33,11 +32,10 @@ const iconMap: Record<string, any> = {
   Cloud,
   Wrench,
   ShoppingCart,
-  Zap,
-  FileText,
+  FileCode,
+  TrendingUp,
   Store,
-  Layout,
-  Blocks,
+  Share2,
 };
 
 export default function ServicesPage() {

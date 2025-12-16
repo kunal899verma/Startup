@@ -10,11 +10,10 @@ import {
   Wrench,
   ArrowRight,
   ShoppingCart,
-  Zap,
-  FileText,
+  FileCode,
+  TrendingUp,
   Store,
-  Layout,
-  Blocks,
+  Share2,
 } from "lucide-react";
 import Link from "next/link";
 import Card from "@/components/ui/Card";
@@ -31,11 +30,10 @@ const iconMap: Record<string, any> = {
   Cloud,
   Wrench,
   ShoppingCart,
-  Zap,
-  FileText,
+  FileCode,
+  TrendingUp,
   Store,
-  Layout,
-  Blocks,
+  Share2,
 };
 
 export default function ServicesOverview() {
