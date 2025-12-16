@@ -14,6 +14,11 @@ import {
   Zap,
   Sparkles,
   TrendingUp,
+  ShoppingCart,
+  FileText,
+  Store,
+  Layout,
+  Blocks,
 } from "lucide-react";
 import Link from "next/link";
 import Container from "@/components/ui/Container";
@@ -27,6 +32,12 @@ const iconMap: Record<string, any> = {
   Database,
   Cloud,
   Wrench,
+  ShoppingCart,
+  Zap,
+  FileText,
+  Store,
+  Layout,
+  Blocks,
 };
 
 export default function ServicesPage() {

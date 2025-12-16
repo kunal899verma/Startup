@@ -86,6 +86,84 @@ export const SERVICES = [
       "Bug Fixes",
     ],
   },
+  {
+    id: "shopify-development",
+    title: "Shopify Development",
+    description:
+      "Custom Shopify stores and apps that drive sales, enhance customer experience, and scale your e-commerce business.",
+    icon: "ShoppingCart",
+    features: [
+      "Custom Shopify Themes",
+      "Shopify App Development",
+      "Store Migration & Setup",
+      "Payment Gateway Integration",
+    ],
+  },
+  {
+    id: "shopify-hydrogen",
+    title: "Shopify Hydrogen & Headless Commerce",
+    description:
+      "Next-generation headless commerce solutions with Shopify Hydrogen for lightning-fast, customizable storefronts.",
+    icon: "Zap",
+    features: [
+      "Hydrogen Storefronts",
+      "Headless Architecture",
+      "GraphQL API Integration",
+      "Custom Checkout Experience",
+    ],
+  },
+  {
+    id: "wordpress-development",
+    title: "WordPress Development",
+    description:
+      "Professional WordPress websites, custom themes, and plugins tailored to your business needs.",
+    icon: "FileText",
+    features: [
+      "Custom Theme Development",
+      "Plugin Development",
+      "WooCommerce Integration",
+      "Headless WordPress",
+    ],
+  },
+  {
+    id: "ecommerce-solutions",
+    title: "E-commerce Solutions",
+    description:
+      "End-to-end e-commerce platforms built with WooCommerce, Magento, or custom solutions for maximum conversions.",
+    icon: "Store",
+    features: [
+      "Multi-vendor Marketplaces",
+      "Payment Gateway Setup",
+      "Inventory Management",
+      "Analytics & Reporting",
+    ],
+  },
+  {
+    id: "cms-development",
+    title: "CMS Development",
+    description:
+      "Custom content management systems and integrations with Contentful, Sanity, Strapi, and other headless CMS platforms.",
+    icon: "Layout",
+    features: [
+      "Headless CMS Setup",
+      "Content Modeling",
+      "API Integration",
+      "Multi-language Support",
+    ],
+  },
+  {
+    id: "wix-webflow",
+    title: "Wix & Webflow Development",
+    description:
+      "Professional no-code/low-code solutions with Wix and Webflow for rapid deployment and easy management.",
+    icon: "Blocks",
+    features: [
+      "Custom Wix Development",
+      "Webflow Animations",
+      "CMS Collections",
+      "Third-party Integrations",
+    ],
+  },
 ];
 
 export const TECH_STACK = [
@@ -240,4 +318,5 @@ export const NAV_LINKS = [
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
+
 

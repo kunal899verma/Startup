@@ -15,3 +15,4 @@ export const metadata = genMeta({
   canonicalUrl: "https://techvision.com/about",
 });
 
+
