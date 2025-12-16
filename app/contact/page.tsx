@@ -36,9 +36,9 @@ export default function ContactPage() {
     setIsSubmitting(true);
     
     try {
-      // Google Apps Script URL - Update this with your deployed script URL
+      // Google Apps Script URL - Hardcoded with env variable fallback
       const GOOGLE_SCRIPT_URL = process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL || 
-        "https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec";
+        "https://script.google.com/macros/s/AKfycbzh2_nOWmrb9q-50agZHGBPs8xnRLCG0uNq8Vsn4zBYWxgbKjxW2FGC13N4UkI0v0sOEA/exec";
       
       // Send data to Google Sheets
       await fetch(GOOGLE_SCRIPT_URL, {
