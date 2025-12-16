@@ -1,0 +1,5 @@
+# Google Sheets Integration
+NEXT_PUBLIC_GOOGLE_SCRIPT_URL=https://script.google.com/macros/s/AKfycbzh2_nOWmrb9q-50agZHGBPs8xnRLCG0uNq8Vsn4zBYWxgbKjxW2FGC13N4UkI0v0sOEA/exec
+
+# Company Email (fallback)
+NEXT_PUBLIC_CONTACT_EMAIL=hello@techvision.com
