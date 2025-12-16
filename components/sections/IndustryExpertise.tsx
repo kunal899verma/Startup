@@ -8,6 +8,13 @@ import Section from "@/components/ui/Section";
 
 const industries = [
   {
+    icon: ShoppingBag,
+    name: "E-commerce & Retail",
+    projects: "850+",
+    description: "Shopify, Amazon & Marketplace Solutions",
+    gradient: "from-purple-600 to-pink-600"
+  },
+  {
     icon: Building2,
     name: "Financial Services",
     projects: "450+",
@@ -16,37 +23,30 @@ const industries = [
   },
   {
     icon: Heart,
-    name: "Healthcare",
+    name: "Healthcare & Wellness",
     projects: "380+",
-    description: "Digital Health & Medical Devices",
+    description: "Digital Health & Telemedicine",
     gradient: "from-red-600 to-pink-600"
   },
   {
-    icon: ShoppingBag,
-    name: "Retail & E-commerce",
-    projects: "520+",
-    description: "Online Shopping & POS Systems",
-    gradient: "from-purple-600 to-pink-600"
-  },
-  {
     icon: Factory,
-    name: "Manufacturing",
+    name: "Manufacturing & Supply Chain",
     projects: "290+",
-    description: "Industry 4.0 & IoT Solutions",
+    description: "Industry 4.0 & Automation",
     gradient: "from-orange-600 to-red-600"
   },
   {
     icon: Plane,
-    name: "Transportation",
+    name: "Travel & Hospitality",
     projects: "180+",
-    description: "Logistics & Fleet Management",
+    description: "Booking Systems & Management",
     gradient: "from-green-600 to-teal-600"
   },
   {
     icon: Globe,
-    name: "Telecommunications",
-    projects: "340+",
-    description: "5G & Network Solutions",
+    name: "Digital Marketing",
+    projects: "640+",
+    description: "Amazon, Social Media & PPC Campaigns",
     gradient: "from-indigo-600 to-blue-600"
   },
 ];

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Database, Cloud, Smartphone, Layout, Cpu, Shield, Zap } from "lucide-react";
+import { Code2, Database, Cloud, Smartphone, Cpu, Shield, Zap, ShoppingCart, TrendingUp } from "lucide-react";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
 
@@ -15,7 +15,7 @@ const techCategories = [
       { name: "Next.js", level: "Expert" },
       { name: "TypeScript", level: "Expert" },
       { name: "Vue.js", level: "Advanced" },
-      { name: "Angular", level: "Advanced" },
+      { name: "Tailwind CSS", level: "Expert" },
     ]
   },
   {
@@ -25,15 +25,39 @@ const techCategories = [
     technologies: [
       { name: "Node.js", level: "Expert" },
       { name: "Python", level: "Expert" },
-      { name: "Java", level: "Expert" },
+      { name: "PHP", level: "Expert" },
+      { name: "Java", level: "Advanced" },
       { name: ".NET", level: "Advanced" },
-      { name: "Go", level: "Advanced" },
+    ]
+  },
+  {
+    icon: ShoppingCart,
+    category: "E-commerce",
+    color: "from-green-600 to-teal-600",
+    technologies: [
+      { name: "Shopify", level: "Expert" },
+      { name: "Shopify Hydrogen", level: "Expert" },
+      { name: "WordPress", level: "Expert" },
+      { name: "WooCommerce", level: "Expert" },
+      { name: "Magento", level: "Advanced" },
+    ]
+  },
+  {
+    icon: TrendingUp,
+    category: "Marketing & Analytics",
+    color: "from-orange-600 to-red-600",
+    technologies: [
+      { name: "Amazon PPC", level: "Expert" },
+      { name: "Google Ads", level: "Expert" },
+      { name: "Facebook Ads", level: "Expert" },
+      { name: "Google Analytics", level: "Expert" },
+      { name: "SEMrush", level: "Advanced" },
     ]
   },
   {
     icon: Cloud,
     category: "Cloud & DevOps",
-    color: "from-orange-600 to-red-600",
+    color: "from-indigo-600 to-blue-600",
     technologies: [
       { name: "AWS", level: "Expert" },
       { name: "Azure", level: "Expert" },
@@ -45,7 +69,7 @@ const techCategories = [
   {
     icon: Smartphone,
     category: "Mobile",
-    color: "from-green-600 to-teal-600",
+    color: "from-pink-600 to-rose-600",
     technologies: [
       { name: "React Native", level: "Expert" },
       { name: "Flutter", level: "Advanced" },
@@ -56,7 +80,7 @@ const techCategories = [
   {
     icon: Cpu,
     category: "AI & Data",
-    color: "from-indigo-600 to-purple-600",
+    color: "from-purple-600 to-indigo-600",
     technologies: [
       { name: "TensorFlow", level: "Advanced" },
       { name: "PyTorch", level: "Advanced" },

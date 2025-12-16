@@ -169,86 +169,86 @@ export const TECH_STACK = [
 export const TESTIMONIALS = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    role: "CEO at StartupCo",
+    name: "David Martinez",
+    role: "E-commerce Director at FashionHub",
     content:
-      "TechVision Studios transformed our vision into reality. Their attention to detail and technical expertise is unmatched. Highly recommend!",
+      "Their Shopify Hydrogen development increased our site speed by 3x and conversion rate by 45%. Amazon PPC campaign management brought 250% ROI. Exceptional results!",
     rating: 5,
-    avatar: "SJ",
+    avatar: "DM",
   },
   {
     id: 2,
-    name: "Michael Chen",
-    role: "Product Manager at InnovateTech",
+    name: "Sarah Thompson",
+    role: "Marketing Head at RetailPro",
     content:
-      "Working with this team was a game-changer. They delivered a stunning application that exceeded our expectations in every way.",
+      "The social media marketing campaign they created generated 150K+ followers and boosted our sales by 180%. Their Amazon account management is top-notch!",
     rating: 5,
-    avatar: "MC",
+    avatar: "ST",
   },
   {
     id: 3,
-    name: "Emily Rodriguez",
-    role: "Founder at DigitalFirst",
+    name: "James Wilson",
+    role: "Founder at HealthTech Solutions",
     content:
-      "Professional, responsive, and incredibly talented. They took our complex requirements and created an elegant solution.",
+      "From WordPress development to mobile apps, they handle everything with professionalism. Our patient management app now serves 50,000+ users seamlessly.",
     rating: 5,
-    avatar: "ER",
+    avatar: "JW",
   },
 ];
 
 export const PORTFOLIO_PROJECTS = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "Shopify Hydrogen Store",
     description:
-      "A modern e-commerce solution with real-time inventory management and seamless checkout experience.",
-    category: "Web Development",
-    tags: ["Next.js", "Stripe", "PostgreSQL"],
+      "High-performance headless Shopify store built with Hydrogen, achieving 95+ Lighthouse score and 3x faster loading.",
+    category: "E-commerce Development",
+    tags: ["Shopify Hydrogen", "React", "GraphQL"],
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
   },
   {
     id: 2,
+    title: "Amazon PPC Campaign Management",
+    description:
+      "Managed Amazon advertising campaign that increased ROI by 250% and reduced ACoS from 35% to 18%.",
+    category: "Digital Marketing",
+    tags: ["Amazon PPC", "Analytics", "SEO"],
+    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop",
+  },
+  {
+    id: 3,
+    title: "WordPress E-learning Platform",
+    description:
+      "Custom WordPress LMS with WooCommerce integration, serving 50,000+ students with video streaming.",
+    category: "WordPress Development",
+    tags: ["WordPress", "WooCommerce", "LMS"],
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+  },
+  {
+    id: 4,
+    title: "Social Media Growth Campaign",
+    description:
+      "Multi-platform social media strategy that grew Instagram following from 5K to 150K in 6 months.",
+    category: "Social Media Marketing",
+    tags: ["Instagram", "Facebook", "YouTube"],
+    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop",
+  },
+  {
+    id: 5,
     title: "Healthcare Mobile App",
     description:
-      "Patient management system with telemedicine capabilities and secure health record storage.",
+      "HIPAA-compliant patient management app with telemedicine and secure health record storage.",
     category: "Mobile Development",
     tags: ["React Native", "Firebase", "HealthKit"],
     image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop",
   },
   {
-    id: 3,
-    title: "SaaS Analytics Dashboard",
-    description:
-      "Real-time analytics platform with interactive visualizations and custom reporting.",
-    category: "Web Development",
-    tags: ["React", "D3.js", "Node.js"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-  },
-  {
-    id: 4,
-    title: "Fintech Payment Gateway",
-    description:
-      "Secure payment processing system with multi-currency support and fraud detection.",
-    category: "Backend Development",
-    tags: ["Python", "PostgreSQL", "Redis"],
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop",
-  },
-  {
-    id: 5,
-    title: "Social Media Platform",
-    description:
-      "Community-driven platform with real-time messaging and content sharing capabilities.",
-    category: "Full Stack",
-    tags: ["Next.js", "GraphQL", "MongoDB"],
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop",
-  },
-  {
     id: 6,
-    title: "AI-Powered CRM",
+    title: "SaaS Analytics Platform",
     description:
-      "Customer relationship management system with AI-driven insights and automation.",
+      "Real-time analytics dashboard with AI-powered insights and custom reporting for enterprise clients.",
     category: "Web Development",
-    tags: ["React", "Python", "TensorFlow"],
+    tags: ["Next.js", "Python", "TensorFlow"],
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
   },
 ];
